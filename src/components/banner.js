@@ -11,7 +11,7 @@ function Banner() {
         setMovie(request.data.results[ 
           Math.floor((Math.random() * 20) + 1)
         ])
-        
+        //hello
       }
       fetchData();
     },[])
